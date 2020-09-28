@@ -18,6 +18,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #17182f;
 }
 
 /* HTML5 display definitions
@@ -184,6 +185,7 @@ sub {
 img {
   border: 0;
 }
+
 
 /**
  * Correct overflow not hidden in IE 9/10/11.

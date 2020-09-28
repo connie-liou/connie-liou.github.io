@@ -1,0 +1,73 @@
+/* Sections */
+.section {
+    
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    width: 100%
+}
+.section-heading,
+.section-description {
+    margin-bottom: 1.2rem;
+}
+
+/* Heading */
+
+#particles-js{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.hero{
+    padding: 5rem 0 0rem;
+    font-family: 'Raleway', Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 30%;
+}
+.hero::before{
+    content: "";
+    background-image: url(../images/butterfly\ nebula.jpg); 
+    opacity: 60%;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -10;
+}
+
+canvas {
+    display: block;
+}
+
+.carousel-inner>.item>a>img,.carousel-inner>.item>img,.img-responsive,.thumbnail a>img,.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.selfie{
+    max-width: 200px;
+    max-height: 200px;
+    display: inline;
+}
+
+.name{
+    padding-top: 50px;
+}
+.left{
+    padding-left: 25px;
+}
+.right{
+    padding-right: 25px;
+}
+/* Intro */
+.intro{
+
+}
