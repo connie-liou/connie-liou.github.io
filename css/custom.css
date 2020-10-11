@@ -11,15 +11,30 @@
     margin-bottom: 1.2rem;
 }
 
-.container-fluid {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: center !important; 
-  }
-  
+
+
+@media (min-width: 300px) {
+    .container-fluid {
+        width: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center !important; 
+      }
+}
+
+@media (min-width: 1000px) {
+    .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center !important; 
+      }
+}
+
 .row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -111,19 +126,30 @@ canvas {
 
 /* About Me */
 
-#about-me{
+@media (min-width: 300px) {
+    #about-me{
+        margin: 0 4vh; 
+    }
+    #about-list{
+        margin: 0 10px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #about-me{
+        margin: 0 20vh; 
+    }
     
-    padding-left: 40px;
-    margin: 0 20vh; 
+    #about-list{
+        margin: 0 50px;
+    }
 }
 
 #about-me-text{
     text-align: left;
 }
 
-#about-list{
-    margin: 0 60px;
-}
+
 /* Work */
 .work{
     background-color: #17182f;
