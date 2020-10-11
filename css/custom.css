@@ -112,9 +112,13 @@ canvas {
 /* About Me */
 
 #about-me{
-    text-align: left;
+    
     padding-left: 40px;
     margin: 0 20vh; 
+}
+
+#about-me-text{
+    text-align: left;
 }
 
 #about-list{
