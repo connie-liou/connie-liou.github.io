@@ -1,22 +1,45 @@
 /* Sections */
 .section {
-    
     color: #ffffff;
     text-align: center;
-    display: inline-block;
-    width: 100%
+    align-content: center;
+    align-items: center;
+    justify-content: center !important; 
 }
 .section-heading,
 .section-description {
     margin-bottom: 1.2rem;
 }
 
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center !important; 
+  }
+  
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
+    opacity: 100 !important;
+    }
+
 /* Heading */
 
 #particles-js{
     content: "";
     position: absolute;
-    width: 100%;
+    max-width: 100%;
     height: 500px;
     top: 0px;
     right: 0px;
@@ -25,9 +48,9 @@
     z-index: -1;
 }
 .hero{
-    padding: 5rem 0 0rem;
+    padding: 5rem 0 0rem 0rem;
     font-family: 'Raleway', Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 30%;
+    min-height: 100vh;
 }
 .hero::before{
     content: "";
@@ -56,18 +79,21 @@ canvas {
     max-width: 200px;
     max-height: 200px;
     display: inline;
+    vertical-align: middle;
 }
 
 .name{
     padding-top: 50px;
 }
-.left{
-    padding-left: 25px;
-}
-.right{
-    padding-right: 25px;
-}
-/* Intro */
-.intro{
 
+.intro{
+    display: flex;
+}
+
+.buttons{
+}
+
+/* Work */
+.work{
+    background-color: #17182f;
 }

@@ -24,36 +24,159 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/gradientborder.css">
+  <link rel="stylesheet" href="css/timeline.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    $(function() {
+          AOS.init();
+     });
+  </script>
 
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  
-  <div class="hero section">
-      <div class = "row gradient-border"><img class = "img-responsive selfie" src = "images/headshot.png"></div>
+<!-- HERO -->
+  <div class="hero section container-fluid">
+    
+      <div class = "container-fluid ">
+        <img class = "img-responsive selfie" src = "images/headshot.png">
+        <!-- <span class = "gradient-border"></span> -->
+      </div>
+      <div class = "container-fluid">
+        <div class = 'intro container-fluid row'>
+          <h1>Hi! My name is Connie Liou</h1>
+        </div>
+        <div class = 'intro container-fluid row'>
+          <h5>Rutgers '22, Aerospace Eng. & Physics, she/her/hers</h5>
+        </div>
+        <div class="buttons container-fluid row">
+          <a class="button" href="#work-section">Things I do</a>
+          <a class="button">Resume</a>
+          <a class="button">Art</a>
+        </div>
+      </div>
   </div>
   <div id="particles-js">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src = "js/particles.js"></script>
   </div>
-  <div class = "intro section">
-    <h1>Hi! My name is Connie Liou</h1>
-    <h4>I am an Engineer</h4>
-    <div>
-      <a>Things I do</a>
-      <a>Resume</a>
-      <a>Art</a>
-    </div>
+  
+<!-- TIMELINE -->
+  <div id = "work-section" class = "work section" >
+    <h1 data-aos="fade-up">Things I do (and have done)</h1>
+    <section id="cd-timeline" class="cd-container">
+
+      <div class="cd-timeline-block" data-aos="fade-up" >
+        <div class="cd-timeline-img cd-picture">
+        </div>
+        <div class="cd-timeline-content">
+          <h2>NASA Goddard</h2>
+          <div class="timeline-content-info">
+            <span class="timeline-content-info-title">
+              <i class="fa fa-certificate" aria-hidden="true"></i>
+              Flight Dynamics (Code 595)
+            </span>
+            <span class="timeline-content-info-date">
+              <i class="fa fa-calendar-o" aria-hidden="true"></i>
+              Sept. 2020  - Present
+            </span>
+          </div>
+          <p>
+            Started a new part time rotation working on trajectory simulations for <a href="https://en.wikipedia.org/wiki/Space_Weather_Follow-On_L1">SWFO</a> 
+            mission using GMAT, supporting <a href="https://www.nasa.gov/feature/goddard/2019/five-teams-win-nasa-dali-awards-to-advance-future-lunar-missions">LEMS</a> 
+            electrical power system energy balance analysis in Python, and adapting an X-Ray weld inspection fixture for <a href="https://roman.gsfc.nasa.gov/">Roman Space Telescope</a>
+          </p>
+          <ul class="content-skills">
+          <li>GMAT</li>
+          <li>Python</li>
+          </ul>
+        </div> <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
+      
+      <div class="cd-timeline-block" data-aos="fade-up" >
+        <div class="cd-timeline-img cd-picture">
+        </div>
+        <div class="cd-timeline-content">
+          <h2>Space Technology Association at Rutgers</h2>
+          <div class="timeline-content-info">
+            <span class="timeline-content-info-title">
+              <i class="fa fa-certificate" aria-hidden="true"></i>
+              Vice President & CubeSat Project Manager
+            </span>
+            <span class="timeline-content-info-date">
+              <i class="fa fa-calendar-o" aria-hidden="true"></i>
+              Sept. 2020  - Present
+            </span>
+          </div>
+          <p>Started bringing to life Rutgers' first CubeSat mission proposal from scratch, 
+            centered around testing <a href="https://www.laurentburlion.com/">Prof. Burlion's</a> 
+            propellant slosh-oriented control algorithms for the 
+            <a href="https://www.nasa.gov/directorates/heo/home/CubeSats_initiative">NASA CSLI</a>! <br></br>
+            Onboarded over 20 members for three subsystem teams, lead the Systems team through proposal writing, 
+            and collaborating with Prof. Burlion's lab</p>
+        </div> <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
+
+      <div class="cd-timeline-block" data-aos="fade-up" >
+        <div class="cd-timeline-img cd-movie">
+        </div> <!-- cd-timeline-img -->
+  
+        <div class="cd-timeline-content">
+          <h2>LGBTeaQ+ Time</h2>
+          <div class="timeline-content-info">
+            <span class="timeline-content-info-title">
+              <i class="fa fa-certificate" aria-hidden="true"></i>
+              Coordinator
+            </span>
+            <span class="timeline-content-info-date">
+              <i class="fa fa-calendar-o" aria-hidden="true"></i>
+              Summer 2020
+            </span>
+          </div>
+          <p>Started a series of weekly <a href="https://teatime.substack.com/about">Tea Time</a> talks with a few friends
+          to bring awareness and create a community for LGBTQ+ people in the tech scene</p>
+        </div> <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
+
+      <div class="cd-timeline-block" data-aos="fade-up">
+        <div class="cd-timeline-img cd-picture">
+        </div>
+        <div class="cd-timeline-content">
+          <h2>School of Engineering Ambassadors</h2>
+          <div class="timeline-content-info">
+            <span class="timeline-content-info-title">
+              <i class="fa fa-certificate" aria-hidden="true"></i>
+              Ambassador
+            </span>
+            <span class="timeline-content-info-date">
+              <i class="fa fa-calendar-o" aria-hidden="true"></i>
+              June 2020 - Present
+            </span>
+          </div>
+          <p>
+            Joined the <a href="https://soe.rutgers.edu/ambassadors">SoE Ambassador</a> team to represent Rutgers SoE in 
+            prospective and admitted student events <br></br>
+            Support the Tour Engagement Committee in creating new virtual tour plans for the engineering school
+          </p>
+          <ul class="content-skills">
+          <li>GMAT</li>
+          <li>Python</li>
+          </ul>
+        </div> <!-- cd-timeline-content -->
+      </div> <!-- cd-timeline-block -->
+
+    </section> <!-- cd-timeline -->
   </div>
+
 
 
 <!-- End Document
