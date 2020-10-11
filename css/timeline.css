@@ -114,7 +114,7 @@ Main components
 	margin-right: 30px;
 	background: #333C42;
 	border-radius: 2px;
-	padding: 1em;
+    padding: 1em;
 }
 
 .cd-timeline-content .timeline-content-info {
@@ -186,7 +186,8 @@ Main components
 
 .cd-timeline-content p {
 	margin: 1em 0;
-	line-height: 1.6;
+    line-height: 1.6;
+    color: #fff;
 }
 
 .cd-timeline-content::before {

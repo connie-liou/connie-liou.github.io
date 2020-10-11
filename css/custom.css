@@ -63,6 +63,7 @@
     bottom: 0px;
     left: 0px;
     z-index: -10;
+    height: 105vh;
 }
 
 canvas {
@@ -90,9 +91,27 @@ canvas {
     display: flex;
 }
 
-.buttons{
+.social{
+    display: inline-block;
+    width: 35px;
+    margin: 0 10px;
 }
 
+.social:hover{
+    opacity: 70%;
+}
+
+/* About Me */
+
+#about-me{
+    text-align: left;
+    padding-left: 40px;
+    margin: 0 200px; 
+}
+
+#about-list{
+    margin: 0 60px;
+}
 /* Work */
 .work{
     background-color: #17182f;
