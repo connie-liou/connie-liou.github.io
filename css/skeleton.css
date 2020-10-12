@@ -134,6 +134,8 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; 
   overflow-x: hidden;
+  overflow-y: hidden;
+
 }
 
 
