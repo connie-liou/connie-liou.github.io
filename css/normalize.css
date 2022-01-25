@@ -19,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #17182f;
+  background-color: var(--bkgColor)
 }
 
 /* HTML5 display definitions

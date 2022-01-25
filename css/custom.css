@@ -9,6 +9,7 @@
 .section-heading,
 .section-description {
     margin-top: 50px;
+    padding-top: 50px;
 }
 
 
@@ -136,7 +137,7 @@ canvas {
 
 @media (min-width: 1000px) {
     #about-me{
-        margin: 0 20vh !important;
+        margin: 0 25vh !important;
     }
     
     #about-list{
@@ -146,10 +147,19 @@ canvas {
 
 #about-me-text{
     text-align: left;
+    
+}
+
+.card{
+    background-color: var(--cardColor);
+    padding: 50px 50px 50px;
+    position: relative;
+    box-shadow: 0.5rem 0.5rem 3rem 0 rgb(0 0 0 / 50%);
+    border-radius: 25px;
 }
 
 
 /* Work */
 .work{
-    background-color: #17182f;
+    background-color: var(--bkgColor);
 }
