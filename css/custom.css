@@ -145,13 +145,19 @@ canvas {
 @media (min-width: 300px) {
     #about-me{
         margin: 0 5vh;
+        
     }
     #about-list{
         margin: 0 10px;
     }
+    #about-me-text{
+        text-align: left; 
+        padding: 20px;
+        font-size: 12px;
+    }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1400px) {
     #about-me{
         margin: 0 25vh !important;
     }
@@ -159,12 +165,14 @@ canvas {
     #about-list{
         margin: 0 50px;
     }
+
+    #about-me-text{
+        text-align: left; 
+        font-size: 15px;
+    }
 }
 
-#about-me-text{
-    text-align: left;
-    
-}
+
 
 .card{
     background-color: var(--cardColor);
@@ -175,7 +183,7 @@ canvas {
 }
 
 #begin-button{
-    width: 400px;
+    width: 250px;
 }
 
 /* Work */
