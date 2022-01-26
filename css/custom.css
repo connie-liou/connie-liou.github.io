@@ -40,10 +40,6 @@
     flex-wrap: wrap;
   }
 
-/* html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
-    opacity: 100 !important;
-    } */
-
 #back-up{
     position: fixed;
     bottom: 3%;
@@ -91,12 +87,6 @@
 canvas {
     display: block;
 }
-
-/* .carousel-inner>.item>a>img,.carousel-inner>.item>img,.img-responsive,.thumbnail a>img,.thumbnail>img {
-    display: block;
-    max-width: 100%;
-    height: auto
-} */
 
 .selfie{
     max-width: 300px;
