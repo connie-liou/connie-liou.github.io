@@ -219,7 +219,8 @@ input[type="button"] {
   border-radius: 4px;
   border: 1px solid;
   cursor: pointer;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+  transition: all .5s ease;}
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -230,8 +231,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #999;
-  border-color: #999;
+  color: rgb(86, 87, 97);
+  border-color: #rgb(86, 87, 97);
   outline: 0; }
 .button.button-primary,
 button.button-primary,
