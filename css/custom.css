@@ -142,7 +142,7 @@ canvas {
 
 /* About Me */
 
-@media (min-width: 300px) {
+@media (min-width: 200px) {
     #about-me{
         margin: 0 5vh;
         
