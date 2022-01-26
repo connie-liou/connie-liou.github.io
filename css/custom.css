@@ -158,6 +158,9 @@ canvas {
     border-radius: 25px;
 }
 
+#begin-button{
+    width: 400px;
+}
 
 /* Work */
 .work{

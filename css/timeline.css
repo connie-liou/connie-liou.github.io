@@ -19,7 +19,7 @@
 	/* --bkgColor: #261621; #17182f */
 	--cardColor: #081226; /*#212342*/
 
-	--boarderColor: #592E3E; /*#4e5ed3*/
+	--boarderColor: #64233b; /*#4e5ed3*/
 
 	--linkColor: #66e8ff;
 
@@ -106,9 +106,8 @@ Main components
 
 .cd-timeline-img {
 	background: white;
-	border: 1.5px solid #4e5ed3;
-	box-shadow: 3px 3px 0px #bab5f8;
-	box-shadow: 3px 3px 0px #bab5f8;
+	border: 2px solid var(--boarderColor); /*#4e5ed3 */
+	box-shadow: 3px 3px 0px var(--timelineColor);
 }
 
 @media only screen and (min-width: 1170px) {
